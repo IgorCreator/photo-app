@@ -1,6 +1,6 @@
 <h1><%= t('.sign_up') %></h1>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { role: "form", class: "cc_form"}) do |f| %>
   <%= bootstrap_devise_error_messages! %>
 
   <div class="form-group">
@@ -21,7 +21,7 @@
     <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation, autocomplete: 'current-password', class: 'form-control' %>
   </div>
-  
+
   <%= render 'stripe/credit_card_form' %>
 
   <div class="form-group">
