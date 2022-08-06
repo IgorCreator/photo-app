@@ -3,6 +3,7 @@
 * Using Rails 6 (you'll need Rails 6 and all it's dependencies installed)
 * Devise gem used to create a working User model
 * Bootstrap 4.4 used for styling
+* Stripe gem used to support payments
 
 Sample steps to use:
 1) Clone the app and cd into the app directory
