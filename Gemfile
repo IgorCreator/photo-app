@@ -26,7 +26,15 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 
+# Payment support gem
 gem 'stripe'
+
+# Image upload support with AWS
+gem 'carrierwave'
+gem 'mini_magick'
+# gem 'fog', '~> 2.2'
+# gem 'fog-core', '~> 2.3'
+# gem 'fog-aws', '~> 3.14'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
